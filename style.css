@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    /* background-color: navajowhite; */
+    position:relative;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    font-weight: 800;
+   
+}
+.navbar:hover{
+    background-color: white;
+    transition: 2.0s;
+    color: black;
+}
+.navbar img{
+    width: 200px;
+    height: 50px;
+    margin-left: 160px;
+    margin-top: 25px;
+}
+.navbar ul {
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 365px;
+    padding-left: 120px;
+}
+.navbar ul li{
+    list-style: none;
+    padding-top: 30px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 17px;  
+    color: red;
+}
+.navbar ul li a:hover{
+    color: rgb(148, 17, 235);
+}
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+  /* Hero section start */
+
+  .hero{
+    
+    background: url(/images/background.2jpg.jpg) no-repeat center/cover;
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.hero-heading{
+    margin-left: 510px;
+    top: -300px;
+}
+.hero-heading h1{
+    font-size: 50px;
+    color: white;
+}
+.hero-heading h2{
+    font-size: 40px;
+    color: darkred;
+}
+.hero-heading p{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}  
+.icons a i{
+    color: yellow;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.icons a i:hover{
+    color: white;
+
+}
+.hero-btn{
+    margin-top: 30px;
+    
+}
+.hero-btn button{
+    padding: 20px 20px 20px 20px;cursor: pointer;
+    color:white;
+    background-color: #0000ff;
+}
+.hero-btn button:hover{
+    background-color: black;
+    color: white;
+    transition: 2.0s;
+}
+
+
+  /* Hero section close */
+
+  /* services section start */
+
+.services{
+    height: 100vh;
+    margin-top: 60px;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left:180px;
+    margin-right: 180px;
+   
+  
+}
+
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left:180px;
+    margin-right: 180px;
+}
+.box1{
+    width: 350px;
+    height: 300px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.box2{
+    width: 350px;
+    height: 300px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.box3{
+    width: 350px;
+    height: 300px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+.box1 i{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    color: #2a74e4;
+}
+.box1 h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #2a74e4;
+}
+.box1 p{
+    text-align: center;
+    padding-top: 10px;
+}
+.box2 i{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    color: #2a74e4;
+}
+.box2 h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #2a74e4;
+}
+.box2 p{
+    text-align: center;
+    padding-top: 10px;
+}
+.box3 i{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    color: #2a74e4;
+}
+.box3 h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #2a74e4;
+}
+.box3 p{
+    text-align: center;
+    padding-top: 10px;
+}
+.box1:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+/* Choose section start */
+
+.choose{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.choose h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #2a74e4;
+
+}
+.choose-p{
+    color: orange;
+    font-size: 17px;
+}
+.choose-us{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choose-us-heading h1{
+    display: flex;
+
+   align-items: center;
+}
+.choose-us-img img{
+    margin-top: 100px;
+    width: 253px;
+    height: 351px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.choose-us-img img:hover{
+    width: 253px;
+    height: 381px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.choose-us-services{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 20px;
+    text-align: right;
+}
+.choose-us-services p{
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+
+}
+.choose-us-services2{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 300px;
+}
+.choose-us-services2 p{
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+
+}
+.choose-us-services1 p{
+    margin-bottom: 50px;
+
+}
+.choose-us-services2 p{
+    margin-bottom: 50px;
+
+}
+
+.choose-icons i{
+    margin-top: 10px;
+    font-size: 45px;
+    line-height: 3.5;
+    color: #2a74e4;
+}
+.choose-us-img2 i{
+    margin-top: 10px;
+    font-size: 45px;
+    margin-left: 30px;
+    line-height: 3.5;
+    color: #2a74e4;
+}
+
+
+
+  /* Services section close */
+ .portfolio{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+ .portfolio h1{
+    font-size: 40px;
+    color:#2a74e4;
+ }
+ .portfolio-p{
+    font-size: 17px;
+    color: orange;
+ }
+ .portfolio-list ul{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .portfolio-list ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 100px;
+ }
+ .portfolio-list ul li a{
+    text-decoration: none;
+   padding: 20px 30px 20px 30px;
+    background-color: #0000ff;
+    color: white;
+ }
+ .portfolio-list ul li a:hover{
+    background-color: #2a74e4;
+ }
+ .portfolio-img{
+    margin-top: 80px; 
+ }
+ .portfolio-img img{
+    width: 335px;
+    height: 240px;
+    border-radius: 5%;
+    margin-right: 10px;
+ }
+
+ /* portpholio close */
+
+ /* pricing start */
+.pricing{
+    text-align: center;
+    margin-bottom: 500px;
+}
+.pricing .pricing-h{
+    font-size: 40px;
+    color: #2a74e4;
+}
+.pricing p{
+    font-size: 17px;
+    color: orange;
+}
+.pricing-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+
+
