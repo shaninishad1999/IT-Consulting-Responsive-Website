@@ -156,11 +156,17 @@
     margin-left:180px;
     margin-right: 180px;
 }
+
 .box1{
     width: 350px;
     height: 300px;
     background-color: whitesmoke;
     cursor: pointer;
+}
+.box1:hover{
+    border-bottom: 4px solid rgb(43, 222, 55);
+    border-right: 4px solid #2a74e4;
+    
 }
 .box2{
     width: 350px;
@@ -168,11 +174,21 @@
     background-color: whitesmoke;
     cursor: pointer;
 }
+.box2:hover{
+    border-bottom: 4px solid rgb(43, 222, 55);
+    border-right: 4px solid #2a74e4;
+    
+}
 .box3{
     width: 350px;
     height: 300px;
     background-color: whitesmoke;
     cursor: pointer;
+    
+}
+.box3:hover{
+    border-bottom: 4px solid rgb(43, 222, 55);
+    border-right: 4px solid #2a74e4;
     
 }
 .box1 i{
@@ -320,6 +336,7 @@
 
 
   /* Services section close */
+  
  .portfolio{
     margin-top: 100px;
     text-align: center;
@@ -348,7 +365,7 @@
     text-decoration: none;
    padding: 20px 30px 20px 30px;
     background-color: #0000ff;
-    color: white;
+    color:white;
  }
  .portfolio-list ul li a:hover{
     background-color: #2a74e4;
@@ -368,13 +385,13 @@
  /* pricing start */
 .pricing{
     text-align: center;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
 .pricing .pricing-h{
     font-size: 40px;
     color: #2a74e4;
 }
-.pricing p{
+.pricing-p{
     font-size: 17px;
     color: orange;
 }
@@ -382,11 +399,559 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+.p-div-1{
+    width: 350px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.p-div-1 h1{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.p-dvi-a-para {
+    color: black;
+    margin-top: 40px;
+
+}
+.p-div-1 h6{
+    margin-top: 20px;
+}
+.p-div-1-dollor{
+    font-size: 45px;
+    font-weight: 300;
+    margin-right: -15px;
+    
+}
+.p-div-1 h6{
+    
+    position: relative;
+    font-size: 4.0em;
+    font-weight: 100;    
+}
+.priceing-list ul li{
+    list-style: none;
+    line-height: 2.0;
+
+}
+.priceing-list ul li i{
+    border: 1px solid rgb(8, 8, 8);
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 8px;
+}
+.pricing-btn button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: #0000ff;
+    color: whitesmoke;
+}
+.pricing-btn button:hover{
+    color: white;
+    background-color: #2525e3;
+    cursor: pointer;
+    z-index: 3;
+}
+/* pricing section close */
+
+
+/* Testimonials section start */
+
+.testimonials{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.testimonials-h{
+    font-size: 40px;
+    color: #2a74e4;
+}
+.testimonials-p{
+    font-size: 17px;
+    color: orange;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+.cont-1{
+    width: 300px;
+    height: 350px;
+    background-color: whitesmoke;
+}
+
+
+.cont-1 img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: 30px;
+}
+.cont-1 h1{
+    margin-left: 90px;
+    margin-top: -100px;
+}
+.cont-1 p{
+    margin-left: 40px;
+}
+.cont-1-star{
+    margin-top: 10px;
+    margin-left: 55px;
+    color: orange;
+}
+.container3-para{
+    margin-top: 40px;
+    line-height: 1.5;
+    font-size: larger;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: left;
+    
+}
+.container3-para article{
+    margin-left: 10px;
+}
+
+/* Testimonials section close */
+
+
+/* Counter section start */
+.counter{
+    background: url(/images/background.2jpg.jpg) no-repeat center/cover;
+    height: 70vh;
+    margin-bottom: 80px;
+}
+.counter-div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.counter1{
+    text-align: center;
+}
+.counter1 h1{
+    color: #b7ff00;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.counter1{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400px;
+    color: white;
+}
+.counter2 h1{
+    color: #b7ff00;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.counter2{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400px;
+    color: white;
+}
+.counter3 h1{
+    color: #b7ff00;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.counter3{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400px;
+    color: white;
+}
+
+
+
+/* Counter section close */
+
+/* client section start */
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+.clients img{
+    width: 100ox;
+    height: 100px;
+    color: white;
 }
 
 
 
 
+/* client section close */
+
+/* Teams section  start */
+.teams{
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 200px;
+    background-color: #ddd;
+}
+.teams h1{
+    color: #0000ff;
+    font-size: 40px;
+}
+.teams p{
+    color: orange;
+    
+}
+.teams-div{
+    margin-left: 240px;
+    margin-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.teams1{
+    width: 230px;
+    height: 330px;
+    background-color: whitesmoke;
+   background: url(/teams/team-1.jpg) no-repeat center/cover;
+   border-radius: 5%;    
+    
+}
+.teams-name{
+    padding-top: 340px;
+}
+.teams-name h2{
+    color: #0000ff;
+}
+.teams-name p{
+    color: black;
+    font-style: italic;
+}
+.teams-icons i{
+    margin-top: 15px;
+    border: 2px solid rgb(137, 130, 130);
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #0000ff;
+
+}
+.teams-icons i:hover{
+    background-color: white;
+    border-color: #0000ff;
+    transition: 0.5s;
+    
+}
+
+.teams2{
+    width: 230px;
+    height: 330px;
+    background-color: whitesmoke;
+    background: url(/teams/team-2.jpg) no-repeat center/cover;
+    border-radius: 5%;
+}
+.teams3{
+    width: 230px;
+    height: 330px;
+    background-color: whitesmoke;
+    background: url(/teams/team-3.jpg) no-repeat center/cover;
+    border-radius: 5%;
+}
+.teams4{
+    width: 230px;
+    height: 330px;
+    background-color: whitesmoke;
+    background: url(/teams/team-4.jpg) no-repeat center/cover;
+    border-radius: 5%;
+}
+
+
+
+
+/* Teams section close */
+
+/* Faq section start */
+
+.faq{
+    height: 100vh;
+    text-align: center;
+    margin-top: 50px;
+}
+.faq h1{
+    color: #0000ff;
+    font-size: 40px;
+    font-weight: 100px;
+    padding-bottom: 10px;
+}
+.faq p{
+    color: orange;
+    font-size: 17px;
+
+}
+
+/* faq section close */
+/* discover project start */
+
+.discover{
+    height: 69vh;
+    background: url(/images/background.2jpg.jpg) no-repeat center/cover;
+    text-align: center;
+    color: white;
+}
+.discover h1{
+    padding-top: 150px;
+    font: 1.8em sans-serif;
+    
+}
+.discover p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.discover button{
+    margin-top: 50px;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:#2a74e4;
+    color: white;
+}
+.discover button:hover{
+    background-color: #0000ff;
+    color: hsl(0, 0%, 95%);
+}
+
+/* discover project close */
+
+/* blog section start */
+.blogs{
+    padding-top: 50px;
+    text-align: center;
+    height: 95vh;
+    background-color: #ddd;
+}
+.blogs h1{
+    font-size: 40px;
+    font-weight: 100px;
+}
+.blogs p{
+    font-size: 18px;
+    color: orange;
+}
+
+.blogs-div{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 50px;
+    
+}
+.blog1{
+    width: 350px;
+    height: 430px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 2%;
+    /* background: url(/blog/blog-1.jpg) no-repeat center/cover; */
+}
+.blog1 img{
+    width: 350px;
+    height: 230px;
+    border-radius: 2%;
+}
+.blog1 h2{
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+    
+}
+.blog1 h2 a:hover{
+    color: black;
+    transition: 0.9s;
+}
+.blog1 h2 a{
+    text-decoration: none;
+    color:#2a74e4;
+}
+.blog1 p{
+    padding-top: 10px;
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+}
+.blog-para{
+    margin-top: 20px;
+}
+
+.blog2{
+    width: 350px;
+    height: 430px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 2%;
+    background: url(/blog/blog-2.jpg) no-repeat center/cover;
+}
+.blog3{
+    width: 350px;
+    height: 430px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 2%;
+    background: url(/blog/blog-3.jpg) no-repeat center/cover;
+    
+}
+
+
+/* blog section close */
+
+/* contact us section start */
+.contact{
+    
+    margin-top: 50px;
+    height: 90vh;
+    margin-bottom: 100px;
+   
+}
+.contactus{
+    margin-top: 70px;
+    margin-left: 160px;
+    margin-right: 140px;
+    margin-bottom: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact h1{
+    font-size: 40px;
+    color: #2a74e4;
+    text-align: center;
+
+}
+.contact-para{
+    font-size: 18px;
+    color: orange;
+    padding-top: 10px;
+    text-align: center;
+}
+.adrs{
+    margin-top: 40px;
+}
+.adrs-h{
+   font-size: 20px;
+   font-weight: 300px;
+   margin-bottom: 10px;
+}
+
+.adrs-p{
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+ 
+ }
+
+ .adrs-e{
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+ 
+ }
+.contact-form input{
+    font-size: 25px;
+    line-height: 2.5;
+    background-color: #f8f8f8;
+    border: none;
+    width: 350px;
+}
+.contact-form input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+.sbj input{
+    width: 720px;
+    background-color: #f8f8f8;
+    border: none;
+}
+.msg textarea{
+    background-color: #f8f8f8;
+    border: none;
+    
+}
+.msg ::placeholder{
+ padding-left: 20px;
+ padding-top: 10px;
+ font-size: 15px;
+ 
+ 
+}
+.btn  button{
+    font-size: 15px;
+   background-color: #2a74e4;
+    padding: 20px 30px 20px 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: white;
+   
+    
+}
+.btn button:hover{
+    
+    background-color: #0000ff;
+    
+}
+
+/* contact us section close */
+
+/*   footer start */
+
+footer{
+    height: 95vh;
+    background: url(/images/background.2jpg.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-left: 210px;
+}
+
+.footer-logo img{
+    width: 200px;
+    height: 50px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+
+}
+.footer-logo p{
+margin-right: 500px;
+line-height: 1.8;
+}
+.footer-logo h1{
+    color: red;
+    padding-top: 30px;
+}
+.footer-logo i{
+    padding-right: 10px;
+    padding-top: 50px;
+    color: #b7ff00;
+}
+
+
+
+
+
+
+
+/*  footer close */
 
