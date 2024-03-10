@@ -87,6 +87,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    
 }
 .hero-heading{
     margin-left: 510px;
@@ -135,9 +136,8 @@
   /* services section start */
 
 .services{
+    padding-top: 100px;
     height: 100vh;
-    margin-top: 60px;
-    
     
 }
 .container{
@@ -244,7 +244,9 @@
 
 }
 
-/* Choose section start */
+
+
+/* about us Choose section start */
 
 .choose{
     text-align: center;
@@ -690,6 +692,7 @@
     height: 100vh;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 .faq h1{
     color: #0000ff;
@@ -697,10 +700,31 @@
     font-weight: 100px;
     padding-bottom: 10px;
 }
-.faq p{
+.faqs-p{
     color: orange;
     font-size: 17px;
 
+}
+
+.faq-faq{
+    margin-top: 60px;
+    margin-left: 260px;
+    margin-right: 160px;
+}
+.faq-faq-1{
+    padding-top: 20px;
+    width: 1000px;
+    height: 600px;
+    background-color: #f1f1f1;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.faqq{
+    font-size: 17px;
+}
+.faq-faq-1 p{
+    font-size: 17px;
 }
 
 /* faq section close */
@@ -920,38 +944,90 @@
 footer{
     height: 95vh;
     background: url(/images/background.2jpg.jpg) no-repeat center/cover;
-    display: flex;
-    justify-content: space-around;
     color: white;
-    padding-left: 210px;
+    padding-left: 85px;
+    padding-right: 100px;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 130px;
 }
 
 .footer-logo img{
     width: 200px;
     height: 50px;
-    margin-top: 130px;
-    margin-bottom: 40px;
-
+    margin-bottom: 30px;
 }
 .footer-logo p{
-margin-right: 500px;
-line-height: 1.8;
+    margin-bottom: 20px;
+    line-height: 1.8;
 }
 .footer-logo h1{
-    color: red;
-    padding-top: 30px;
+    margin-bottom: 15px;
+    color: aqua;
 }
-.footer-logo i{
-    padding-right: 10px;
-    padding-top: 50px;
-    color: #b7ff00;
+.footer-logo a i{
+    color: white;
+    padding: 20px 0px 0px 20px;
+    margin-left: -10px;
+}
+.footer-logo a i:hover{
+    color: #ff1e00;
 }
 
+.footer-services h1{
+    color: aqua;
+    margin-bottom: 20px;
+}
+.footer-services ul li{
+    list-style: none;
+    
+}
+.footer-services ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 2.0;
+}
+.footer-services ul li a:hover{
+    color: rgb(255, 0, 174);
+}
 
+.footer-contact h1{
+    color: aqua;
+    margin-bottom: 30px;
+}
+.footer-contact h2{
+    margin-bottom: 20px;
+    color: aqua;
+}
+.footer-contact-p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.footer-contact-email input{
+    font-size: 20px;
+    padding: 20px ;
+    
+}
+.footer-contact-email ::placeholder{
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: #f8f8f8;
+    border: none;
+       
+}
 
+.footer-contact-email button{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
 
-
-
+.footer-contact-email button:hover{
+    color: white;
+    background-color:#2a74e4;
+}
 
 /*  footer close */
 
