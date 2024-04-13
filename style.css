@@ -8,14 +8,16 @@
     height: 80px;
     background-color: rgb(78, 149, 210);
     display: flex;
-
+position: fixed;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .navbar img {
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 .navbar-list {
@@ -150,6 +152,7 @@
 
 
 .services-heading h1 {
+    padding-top: 70px;
     margin-top: 30px;
     font-size: 68px;
     text-align: center;
@@ -164,7 +167,7 @@
     align-content: center;
     margin-left: 160px;
     margin-right: 160px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .box {
@@ -275,10 +278,11 @@
 
 .portpholio {
     margin-bottom: 50px;
-    margin-top: 50px;
+   
 }
 
 .portpholio h1 {
+    padding-top: 70px;
     font-size: 68px;
     text-align: center;
 }
@@ -420,12 +424,13 @@
 
 
 /* testominal section start */
-.testimonal h1 {
+#testimonal h1 {
+    padding-top: 70px;
     font-size: 68px;
     text-align: center;
 }
 
-.testimonal p {
+#testimonal p {
     font-size: 20px;
     text-align: center;
     /* margin-bottom: 50px; */
@@ -563,6 +568,7 @@
 #team h1 {
     text-align: center;
     font-size: 68px;
+    padding-top: 70px;
 
 }
 
@@ -686,9 +692,10 @@
 
 /* blog section */
 #blog h1{
-    margin-top: 20px;
+    /* margin-top: 20px; */
  font-size: 68px;
 text-align: center;
+padding-top: 70px;
 }
 .blog-para {
     font-size: 20px;
@@ -742,7 +749,7 @@ text-align: center;
     
 }
 #contact h1{
-    padding-top: 50px;
+    padding-top: 70px;
     font-size: 68px;
     text-align: center;
 
@@ -830,10 +837,6 @@ input[type=button], select{
     background: url(/images/background.2jpg.jpg)no-repeat center center/cover;
 color: white;
 }
-#footer::before{
-    content: '';
-    opacity: 0.2;
-}
 
 .footer-container{
     padding: 10% 10% 5% 10%;
@@ -841,7 +844,7 @@ color: white;
     grid-template-columns: repeat(4,1fr);
 }
 .footer-left h3{
-    color: blue;
+   
     margin-top: 30px;
     font-size: 25px;
     margin-bottom: 20px;
@@ -850,9 +853,7 @@ color: white;
 .footer-left img{
     width: 100%;
 }
-.service-footer h3{
-    color: blue;
-}
+
 .footer-left p{
     line-height: 2.0;
     font-size: 17px;
@@ -877,9 +878,7 @@ color: white;
 .service-footer ul li a:hover{
     color: rgb(255, 0, 234);
 }
-.information h3{
-    color: blue;
-}
+
 .information ul{
     margin-top: 20px;
 }
@@ -901,7 +900,7 @@ color: white;
 
 .footer-contact h3{
     margin-bottom: 20px;
-    color: blue;
+   
 }
 .footer-contact p{
     line-height: 2.0;
@@ -912,7 +911,7 @@ color: white;
 }
 
 .copyright{
-    color: green;
+    color: rgb(234, 219, 5);
     font-size: 20px;
     font-weight: 800px;
 }
