@@ -8,7 +8,7 @@
     height: 80px;
     background-color: rgb(78, 149, 210);
     display: flex;
-position: fixed;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -80,7 +80,7 @@ position: fixed;
 
 .hero {
     background: url(/images/background.2jpg.jpg)no-repeat center center/cover;
-    height: 88vh;
+    height: 100vh;
     color: white;
 }
 
@@ -278,7 +278,7 @@ position: fixed;
 
 .portpholio {
     margin-bottom: 50px;
-   
+
 }
 
 .portpholio h1 {
@@ -660,24 +660,26 @@ position: fixed;
 
 /* discustion secdtion */
 
-.discus-section{
+.discus-section {
     background: url(/images/background.2jpg.jpg) no-repeat center center/cover;
     height: 70vh;
     color: white;
     text-align: center;
     padding-top: 10%;
-    
+
 }
 
-.discus-section h1{
+.discus-section h1 {
     font-size: 48px;
 }
-.discus-section p{
+
+.discus-section p {
     margin-top: 20px;
     line-height: 1.5;
     font-size: 20px;
 }
-.discus-section a button{
+
+.discus-section a button {
     margin-top: 20px;
     padding: 10px 40px 10px 40px;
     font-size: 20px;
@@ -691,21 +693,22 @@ position: fixed;
 /* discution section close */
 
 /* blog section */
-#blog h1{
+#blog h1 {
     /* margin-top: 20px; */
- font-size: 68px;
-text-align: center;
-padding-top: 70px;
+    font-size: 68px;
+    text-align: center;
+    padding-top: 70px;
 }
+
 .blog-para {
     font-size: 20px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.blog-container{
+.blog-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 
     justify-content: center;
     justify-items: center;
@@ -713,7 +716,7 @@ padding-top: 70px;
     margin-right: 160px;
 }
 
-.blog-box{
+.blog-box {
     width: 350px;
     height: 480px;
     background-color: aqua;
@@ -721,46 +724,53 @@ padding-top: 70px;
     padding: 20px;
     margin: 20px;
 }
-.blog-box img{
+
+.blog-box img {
     width: 300px;
 }
-.blog-box p{
+
+.blog-box p {
     margin-top: 10px;
     font-size: 20px;
     margin-bottom: 15px;
 }
-.blog-box h2{
+
+.blog-box h2 {
     font-weight: normal;
     margin-bottom: 20px;
     color: blue;
 }
 
-.name-dob p{
+.name-dob p {
     line-height: 1.0;
     font-size: 17px;
 }
+
 /* blog section close */
 
 
 /* contact section */
 
-#contact{
+#contact {
     background-color: #ccc;
-    
+
 }
-#contact h1{
+
+#contact h1 {
     padding-top: 70px;
     font-size: 68px;
     text-align: center;
 
 }
+
 .contact-para {
     font-size: 20px;
     padding-bottom: 50px;
     text-align: center;
 
 }
-.contact-container{
+
+.contact-container {
     /* display: grid; */
     /* grid-template-columns: repeat(2,1fr); */
     display: flex;
@@ -771,7 +781,8 @@ padding-top: 70px;
 
 
 /* form */
-input[type=text], select{
+input[type=text],
+select {
     width: 90%;
     padding: 12px 20px;
     font-size: 17px;
@@ -780,7 +791,9 @@ input[type=text], select{
     border: none;
     margin: 10px;
 }
-input[type=email], select{
+
+input[type=email],
+select {
     width: 90%;
     padding: 12px 20px;
     font-size: 17px;
@@ -789,7 +802,8 @@ input[type=email], select{
     border: none;
     margin: 10px;
 }
-textarea{
+
+textarea {
     width: 90%;
     padding: 12px 20px;
     font-size: 17px;
@@ -798,7 +812,9 @@ textarea{
     border: none;
     margin: 10px;
 }
-input[type=button], select{
+
+input[type=button],
+select {
     width: 90%;
     padding: 12px 20px;
     font-size: 17px;
@@ -810,7 +826,8 @@ input[type=button], select{
     background-color: rgb(27, 27, 165);
     color: white;
 }
-#btn:hover{
+
+#btn:hover {
     background-color: blue;
 }
 
@@ -818,10 +835,12 @@ input[type=button], select{
 .address {
     margin-right: 200px;
 }
-.address h2{
+
+.address h2 {
     margin-bottom: 10px;
 }
-.address p{
+
+.address p {
     margin-bottom: 30px;
 }
 
@@ -833,84 +852,92 @@ input[type=button], select{
 
 
 /* footer section */
-#footer{
+#footer {
     background: url(/images/background.2jpg.jpg)no-repeat center center/cover;
-color: white;
+    color: white;
 }
 
-.footer-container{
+.footer-container {
     padding: 10% 10% 5% 10%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.footer-left h3{
-   
+
+.footer-left h3 {
+
     margin-top: 30px;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
-.footer-left img{
+.footer-left img {
     width: 100%;
 }
 
-.footer-left p{
+.footer-left p {
     line-height: 2.0;
     font-size: 17px;
 }
-.service-footer{
+
+.service-footer {
     padding-left: 20%;
 }
+
 .service-footer ul {
     margin-top: 20px;
 }
 
-.service-footer ul li{
+.service-footer ul li {
     list-style: none;
     line-height: 2.0;
 }
-.service-footer ul li a{
+
+.service-footer ul li a {
     text-decoration: none;
     color: black;
     font-weight: 800;
     font-size: 17px;
 }
-.service-footer ul li a:hover{
+
+.service-footer ul li a:hover {
     color: rgb(255, 0, 234);
 }
 
-.information ul{
+.information ul {
     margin-top: 20px;
 }
 
-.information ul li{
+.information ul li {
     list-style: none;
     line-height: 2.0;
 }
-.information ul li a{
+
+.information ul li a {
     text-decoration: none;
     color: black;
     font-weight: 800;
     font-size: 17px;
 }
-.information ul li a:hover{
+
+.information ul li a:hover {
     color: rgb(255, 0, 234);
 }
 
 
-.footer-contact h3{
+.footer-contact h3 {
     margin-bottom: 20px;
-   
+
 }
-.footer-contact p{
+
+.footer-contact p {
     line-height: 2.0;
 }
 
-.newselter h3{
+.newselter h3 {
     margin-top: 30px;
 }
 
-.copyright{
+.copyright {
     color: rgb(234, 219, 5);
     font-size: 20px;
     font-weight: 800px;
@@ -977,6 +1004,7 @@ color: white;
         column-gap: 20px;
         margin-top: 30px;
     }
+
     .portpholio-btn {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1040,28 +1068,31 @@ color: white;
         margin-top: 50px;
         padding-bottom: 50px;
     }
-    .blog-container{
+
+    .blog-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         justify-items: center;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .blog-box{
+
+    .blog-box {
         width: 350px;
         height: 480px;
         background-color: aqua;
         text-align: left;
         padding: 20px;
         margin: 20px;
-        
+
     }
-    .blog-box img{
+
+    .blog-box img {
         width: 300px;
     }
-    
-    .contact-container{
+
+    .contact-container {
         /* display: grid; */
         /* grid-template-columns: repeat(2,1fr); */
         display: block;
@@ -1069,13 +1100,15 @@ color: white;
         justify-content: center;
         justify-items: center;
     }
-    .address{
+
+    .address {
         padding-left: 20px;
     }
-    .footer-container{
+
+    .footer-container {
         padding: 10% 10% 5% 10%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -1146,6 +1179,7 @@ color: white;
         column-gap: 20px;
         margin-top: 30px;
     }
+
     .portpholio-btn {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1209,28 +1243,31 @@ color: white;
         margin-top: 50px;
         padding-bottom: 50px;
     }
-    .blog-container{
+
+    .blog-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         justify-items: center;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .blog-box{
+
+    .blog-box {
         width: 350px;
         height: 480px;
         background-color: aqua;
         text-align: left;
         padding: 20px;
         margin: 20px;
-        
+
     }
-    .blog-box img{
+
+    .blog-box img {
         width: 300px;
     }
-    
-    .contact-container{
+
+    .contact-container {
         /* display: grid; */
         /* grid-template-columns: repeat(2,1fr); */
         display: block;
@@ -1238,13 +1275,15 @@ color: white;
         justify-content: center;
         justify-items: center;
     }
-    .address{
+
+    .address {
         padding-left: 20px;
     }
-    .footer-container{
+
+    .footer-container {
         padding: 10% 10% 5% 10%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -1382,15 +1421,17 @@ color: white;
     .team-box {
         margin: 20px;
     }
-    .blog-container{
+
+    .blog-container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         justify-items: center;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .contact-container{
+
+    .contact-container {
         /* display: grid; */
         /* grid-template-columns: repeat(2,1fr); */
         display: block;
@@ -1398,16 +1439,17 @@ color: white;
         justify-content: center;
         justify-items: center;
     }
-    .address{
+
+    .address {
         padding-left: 20px;
     }
 
-    .footer-container{
+    .footer-container {
         padding: 10% 10% 5% 10%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    
+
 
 }
 
@@ -1546,16 +1588,18 @@ color: white;
     .team-box {
         margin: 20px;
     }
-    .blog-container{
+
+    .blog-container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-    
+        grid-template-columns: repeat(1, 1fr);
+
         justify-content: center;
         justify-items: center;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .contact-container{
+
+    .contact-container {
         /* display: grid; */
         /* grid-template-columns: repeat(2,1fr); */
         display: block;
@@ -1563,15 +1607,16 @@ color: white;
         justify-content: center;
         justify-items: center;
     }
-    .address{
+
+    .address {
         padding-left: 20px;
     }
 
-    .footer-container{
+    .footer-container {
         padding: 10% 10% 5% 10%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    
+
 
 }
