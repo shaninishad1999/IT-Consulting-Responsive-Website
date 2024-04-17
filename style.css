@@ -368,7 +368,7 @@
 .pricing-plans-box {
     height: 620px;
     width: 350px;
-    background-color: aqua;
+    background-color: #ccc;
     text-align: center;
 
 
@@ -452,7 +452,7 @@
 .testimonal-container-box {
     width: 300px;
     height: 300px;
-    background-color: aqua;
+    background-color: #ccc;
     margin: 10px;
 
 }
@@ -719,7 +719,7 @@
 .blog-box {
     width: 350px;
     height: 480px;
-    background-color: aqua;
+    background-color: #ccc;
     text-align: left;
     padding: 20px;
     margin: 20px;
@@ -855,6 +855,8 @@ select {
 #footer {
     background: url(/images/background.2jpg.jpg)no-repeat center center/cover;
     color: white;
+   
+    
 }
 
 .footer-container {
@@ -894,13 +896,15 @@ select {
 
 .service-footer ul li a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
     font-weight: 800;
     font-size: 17px;
+    color: 40A2E3;
+    color: rgb(211, 25, 149);
 }
 
 .service-footer ul li a:hover {
-    color: rgb(255, 0, 234);
+    color: blue;
 }
 
 .information ul {
@@ -914,13 +918,13 @@ select {
 
 .information ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(211, 25, 149);
     font-weight: 800;
     font-size: 17px;
 }
 
 .information ul li a:hover {
-    color: rgb(255, 0, 234);
+    color: blue;
 }
 
 
