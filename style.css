@@ -855,8 +855,8 @@ select {
 #footer {
     background: url(/images/background.2jpg.jpg)no-repeat center center/cover;
     color: white;
-   
-    
+
+
 }
 
 .footer-container {
@@ -1133,10 +1133,16 @@ select {
         top: 80px;
         width: 100%;
         left: 0;
-        background-color: aqua;
+        background-color: white;
         display: none;
+        text-align: center;
 
 
+    }
+
+    .navbar ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.289);
+        padding-bottom: 5px;
     }
 
     .navbar ul li a {
@@ -1169,7 +1175,7 @@ select {
 
     .portpholio-img img {
         /* max-width: 100%; */
-        margin: 10px;
+        margin-right: 20px;
 
     }
 
@@ -1208,6 +1214,10 @@ select {
         margin: 10px;
 
 
+    }
+
+    .pricing-plans-box-3 {
+        grid-column: 1 / span 2;
     }
 
     .testimonal-container {
@@ -1267,6 +1277,10 @@ select {
 
     }
 
+    .blog-box-3 {
+        grid-column: 1 / span 2;
+    }
+
     .blog-box img {
         width: 300px;
     }
@@ -1307,10 +1321,14 @@ select {
         top: 80px;
         width: 100%;
         left: 0;
-        background-color: aqua;
         display: none;
+        text-align: left;
 
+    }
 
+    .navbar ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.289);
+        padding-bottom: 5px;
     }
 
     .navbar ul li a {
@@ -1348,7 +1366,7 @@ select {
 
     .portpholio-img img {
         /* max-width: 100%; */
-        margin: 10px;
+        margin-right: 20px;
 
     }
 
@@ -1454,7 +1472,13 @@ select {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .pricing-plans-box-3 {
+        grid-column: 1 / span 1;
+    }
 
+    .blog-box-3 {
+        grid-column: 1 / span 1;
+    }
 }
 
 
@@ -1464,6 +1488,13 @@ select {
 /* 500px midia query */
 
 @media screen and (max-width:500px) {
+    .pricing-plans-box-3 {
+        grid-column: 1 / span 1;
+    }
+
+    .blog-box-3 {
+        grid-column: 1 / span 1;
+    }
 
     .navbar label {
         display: block;
@@ -1474,10 +1505,15 @@ select {
         top: 80px;
         width: 100%;
         left: 0;
-        background-color: aqua;
         display: none;
+        text-align: left;
 
 
+    }
+
+    .navbar ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.289);
+        padding-bottom: 5px;
     }
 
     .navbar ul li a {
