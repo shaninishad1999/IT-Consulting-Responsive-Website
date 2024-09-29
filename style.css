@@ -717,12 +717,12 @@
 }
 
 .blog-box {
-    width: 350px;
+    width: 300px;
     height: 480px;
     background-color: #ccc;
     text-align: left;
-    padding: 20px;
-    margin: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .blog-box img {
@@ -1123,6 +1123,14 @@ select {
 /* 768 media query */
 
 @media screen and (max-width:768px) {
+    testimonal h1 {
+        padding-top: 70px;
+        font-size: 40px;
+        text-align: center;
+    }
+    /* body{
+        overflow-x: hidden;
+    } */
     .service-footer {
         padding-left: 0%;
     }
@@ -1283,12 +1291,12 @@ select {
     }
 
     .blog-box {
-        width: 350px;
-        height: 480px;
+        width: 0px;
+        height: 450px;
         background-color: aqua;
         text-align: left;
-        padding: 20px;
-        margin: 20px;
+        padding: 0px;
+        margin: 0px;
 
     }
 
@@ -1297,7 +1305,7 @@ select {
     }
 
     .blog-box img {
-        width: 300px;
+        width: 25px;
     }
 
     .contact-container {
@@ -1317,6 +1325,11 @@ select {
         padding: 10% 10% 5% 10%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    #testimonal h1 {
+        padding-top: 70px;
+        font-size: 40px;
+        text-align: center;
     }
 }
 
@@ -1493,6 +1506,11 @@ select {
 
     .blog-box-3 {
         grid-column: 1 / span 1;
+    }
+    #testimonal h1 {
+        padding-top: 70px;
+        font-size: 40px;
+        text-align: center;
     }
 }
 
@@ -1671,6 +1689,35 @@ select {
         padding: 10% 10% 5% 10%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-box {
+        width: 250px;
+        height: 480px;
+        background-color: aqua;
+        text-align: left;
+        padding: 20px;
+        margin: 20px;
+    }
+    .blog-box img {
+        width: 200px;
+    }
+    .box {
+        width: 300px;
+        height: 300px;
+        background-color: #ccc;
+        margin: 10px;
+        align-content: center;
+    }
+    .pricing-plans-box {
+        height: 620px;
+        width: 300px;
+        background-color: aqua;
+        margin: 10px;
+    }
+    #testimonal h1 {
+        padding-top: 70px;
+        font-size: 40px;
+        text-align: center;
     }
 
 
